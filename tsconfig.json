@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./"
+  },
+  "include": [
+    "tests/**/*.ts",
+    "playwright.config.ts"
+, "tests/test_case_01.spec.js"  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
